@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure & Tour Website</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>  
+<!-- header section starts -->
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-hiking"></i> travel. </a>
+
+    <nav class="navbar">
+        <div id="nav-close" class="fas fa-times"></div>
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#shop">shop</a>
+        <a href="#packages">packages</a>
+        <a href="#reviews">reviews</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <div id="search-btn" class="fas fa-search"></div>
+    </div>
+
+</header>
+
+<!-- search form  -->
+<div class="search-form">
+
+    <div id="close-search" class="fas fa-times"></div>
+    <form action="">
+        <input type="search" name="" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+</div>
+<!-- header section ends -->
+
+<!-- home section starts  -->
+<section class="home" id="home">
+    <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="box" style="background: url(images/home-bg-1.jpg) no-repeat;">
+                    <div class="content">
+                        <span>never stop</span>
+                        <h3>exploring</h3>
+                        <p>We were born to be free, to expand our horizons by going where we have never gone before, and not to hang out in the relative comfort and safety of the nest, the known.</p>
+                        <a href="#" class="btn">get started</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box second" style="background: url(images/home-bg-2.jpg) no-repeat;">
+                    <div class="content">
+                        <span>make tour</span>
+                        <h3>amazing</h3>
+                        <p>We will guide your path with exciting activities like trekking, climbing, rafting, nature walks and camping amidst wilderness, in a tailor made heaven that will thrill you to pieces.</p>
+                        <a href="#" class="btn">get started</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(images/home-bg-3.jpg) no-repeat;">
+                    <div class="content">
+                        <span>traverse the</span>
+                        <h3>unknown</h3>
+                        <p>"Man cannot discover new oceans unless he has the courage to lose sight of the shore."<br><em><b>-Andre Gide</em></b></p>
+                        <a href="#" class="btn">get started</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+<!-- home section ends -->
+
+<!-- category section starts  -->
+<section class="category">
+
+    <h1 class="heading">adventure idea!</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/category-1.jpg" alt="">
+            <h3>bungee jump</h3>
+            <p>An activity that involves a person jumping from great height while connected to elastic cord.</p>
+            <a href="#" onclick="underProgress()" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="images/category-2.jpg" alt="">
+            <h3>zip lines</h3>
+            <p>A fun outdoor activity where a pulley is used to ride from the top to bottom of an inclined cable.</p>
+            <a href="#" onclick="underProgress()" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="images/category-3.jpg" alt="">
+            <h3>Canoeing</h3>
+            <p>Canoeing refers to an activity which involves paddling a canoe with a single-bladed paddle.</p>
+            <a href="#" onclick="underProgress()" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="images/category-4.jpg" alt="">
+            <h3>kayaking</h3>
+            <p>It refers to moving through water in a small water vessel with the aid of a double-bladed paddle.</p>
+            <a href="#" onclick="underProgress()" class="btn">read more</a>
+        </div>
+
+    </div>
+
+</section>
+<!-- category section ends -->
+
+<!-- about section starts  -->
+<section class="about" id="about">
+
+    <div class="image">
+        <img src="images/about-img.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <h3>memorable outdoor experiences</h3>
+        <p>Like beautiful scenery, hiking through the mountains, and wild ponies? If you answered yes to any of the above, plan a trip to Mount Rogers National Recreation Area in Southwest Virginia. The expansive preserve contains 200,000 acres of mountains between Damascus and Galax, including Grayson Highlands State Park and Mount Rogers, the highest point in Virginia at 5,729 feet.</p> 
+        <p>With over 500 miles of trails within the park, you'll need several days at least to get the full Mount Rogers experience, but numerous campgrounds within the recreation area accommodate visitors that wish to stay overnight.</p>
+        <a href="#"  onclick="underProgress()" class="btn">read more</a>
+    </div>
+
+</section>
+<!-- about section ends -->
+
+<!-- shop section starts  -->
+<section class="shop" id="shop">
+
+    <h1 class="heading">featured products</h1>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/product-1.jpg" alt="">
+                    <div class="icons">
+                        <a href="javascript: ;" class="fas fa-shopping-cart"></a>
+                        <a href="javascript: ;" class="fas fa-eye"></a>
+                        <a href="javascript: ;" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Rugsack (80L)</h3>
+                    <div class="price">₹ 4099</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/product-2.jpg" alt="">
+                    <div class="icons">
+                        <a href="javascript: ;" class="fas fa-shopping-cart"></a>
+                        <a href="javascript: ;" class="fas fa-eye"></a>
+                        <a href="javascript: ;" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Tactical knife</h3>
+                    <div class="price">₹ 639</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/product-3.jpg" alt="">
+                    <div class="icons">
+                        <a href="javascript: ;" class="fas fa-shopping-cart"></a>
+                        <a href="javascript: ;" class="fas fa-eye"></a>
+                        <a href="javascript: ;" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>ski goggles</h3>
+                    <div class="price">₹ 1899</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/product-4.jpg" alt="">
+                    <div class="icons">
+                        <a href="javascript: ;" class="fas fa-shopping-cart"></a>
+                        <a href="javascript: ;" class="fas fa-eye"></a>
+                        <a href="javascript: ;" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Hiking boots</h3>
+                    <div class="price">₹ 2799</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/product-5.jpg" alt="">
+                    <div class="icons">
+                        <a href="javascript: ;" class="fas fa-shopping-cart"></a>
+                        <a href="javascript: ;" class="fas fa-eye"></a>
+                        <a href="javascript: ;" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>carabiner clips</h3>
+                    <div class="price">₹ 399</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/product-6.jpg" alt="">
+                    <div class="icons">
+                        <a href="javascript: ;" class="fas fa-shopping-cart"></a>
+                        <a href="javascript: ;" class="fas fa-eye"></a>
+                        <a href="javascript: ;" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>charcoal BBQ grill</h3>
+                    <div class="price">₹ 1999</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+<!-- shop section ends -->
+
+<!-- packages section starts  -->
+<section class="packages" id="packages">
+
+    <h1 class="heading">popular packages</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="images/himachal.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>HIMACHAL PRADESH</h3>
+                <p>popularly renowned for outdoor activities such as rock climbing, mountain biking, paragliding, trekking, rafting, and heli-skiing.</p>
+                <div class="price">₹ 11499 onwards</div>
+                <a href="javascript:;" class="btn">explore now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/sikkim.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>SIKKIM</h3>
+                <p>sikim's marvellous landscape are dotted with high altitude lakes, colourful rhododendron groves and beautiful monasteries.</p>
+                <div class="price">₹ 14999 onwards</div>
+                <a href="javascript:;" class="btn">explore now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/ladakh.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>LADAKH</h3>
+                <p>Ladakh or the "Land of High Passes" is home to one of the purest remaining examples of Tibetan Buddhist culture. </p>
+                <div class="price">₹ 12499 onwards</div>
+                <a href="javascript:;" class="btn">explore now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/kerala.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>KERALA</h3>
+                <p>popularly known as "God's own country", tropical paradise of waving palms, wide sandy beaches and famed backwaters.</p>
+                <div class="price">₹ 15299 onwards</div>
+                <a href="javascript:;" class="btn">explore now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/kashmir.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>KASHMIR</h3>
+                <p>Popularly known as the "Paradise on Earth", it's world famous for scenic splendour, snow-capped mountains and plentiful wildlife.</p>
+                <div class="price">₹ 16499 onwards</div>
+                <a href="javascript:;" class="btn">explore now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/rajasthan.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>RAJASTHAN</h3>
+                <p>a state of gigantic forts and palaces, vibrant folk dance and music, spicy food, extensive golden sand desert and camels. </p>
+                <div class="price">₹ 13999 onwards</div>
+                <a href="javascript:;" class="btn">explore now</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<!-- packages section ends -->
+
+<!-- reviews section starts  -->
+<section class="reviews" id="reviews">
+
+    <h1 class="heading">client's reviews</h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <p class="text">Fabulous trip - Really professional tour guide, very well planned whose knowledge was shared in an interesting and thoughtful way. City hotels were fantastic,less so in rural areas. Historic sights are incredible and to be able to see so many in 8 days makes the lengthy bus journeys worth while.</p>
+                <div class="user">
+                    <img src="images/pic-1.png" alt="">
+                    <div class="info">
+                        <h3>nigel jones</h3>
+                        <span>rajasthan</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <p class="text">There was always someone to meet us at the destinations. We had a great group and we all got on well. This was the first time I had visited India and it has left me with the most wonderful memories I just want to go back. They also asked us what we wanted to do and never rushed us.</p>
+                <div class="user">
+                    <img src="images/pic-2.png" alt="">
+                    <div class="info">
+                        <h3>Linda Oram</h3>
+                        <span>kerala</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <p class="text">It was certainly a trip of the life time for both me and my wife. One of those 'buck list' opportunities that went off without a hitch. We'd enjoyed all of the tour immensely. our Tour Director was very professional, highly informative, and shared his personal life experiences that touched us all.</p>
+                <div class="user">
+                    <img src="images/pic-3.png" alt="">
+                    <div class="info">
+                        <h3>joe mackay</h3>
+                        <span>ladakh</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <p class="text">a lot of temples in the first week and lots of travelling. The second week much relaxed and very enjoyable. The guide was excellent and obviously passionate about his country. Imparted lots of knowledge and went out of his way to ensure all requests were addressed and went beyond what was expected.</p>
+                <div class="user">
+                    <img src="images/pic-4.png" alt="">
+                    <div class="info">
+                        <h3>lauren elke</h3>
+                        <span>himachal pradesh</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <p class="text">This trip went so quick, but loved every minute of it! It was a great way to experience every moment of it. Everything about the Kashmir trip was absolutely amazing. I felt I got the most out of every city we went to and I learned so much about Kashmir history and people. Kashmir Day Tours were one of the best in my life.</p>
+                <div class="user">
+                    <img src="images/pic-5.png" alt="">
+                    <div class="info">
+                        <h3>Mihir sharma</h3>
+                        <span>kashmir</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <p class="text">India was a wonderful place & I fell in love with the place and people within a very short period of time. Our guide was professional & couldn't have been more fun or helpful. He made the tour better than i could have hoped. I know that I'll return to India and I'll be using <b>travel.</b> again when I do.</p>
+                <div class="user">
+                    <img src="images/pic-6.png" alt="">
+                    <div class="info">
+                        <h3>steph lim</h3>
+                        <span>sikkim</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <br><br><br>
+        <div class="swiper-pagination"></div>
+    </div>
+
+</section>
+<!-- reviews section ends -->
+
+<!-- services section starts  -->
+<section class="services">
+
+    <h1 class="heading"> what we offer </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/serv-1.png" alt="">
+            <h3>complete guide</h3>
+            <p>confused with what will be best trip for you? let us help you in finding your heaven in india.</p>
+            <a href="javascript:;" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="images/serv-2.png" alt="">
+            <h3>custom packages</h3>
+            <p>customize packages as per your own needs and convenience with our consultants.</p>
+            <a href="javascript:;" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="images/serv-3.png" alt="">
+            <h3>family trips</h3>
+            <p>The best things you can give your family is a lifetime of adventures.</p>
+            <a href="javascript:;" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="images/serv-4.png" alt="">
+            <h3>train guides</h3>
+            <p>Wanna learn to guide people through their journey, we can guide you with that. </p>
+            <a href="javascript:;" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="images/serv-5.png" alt="">
+            <h3>adventure trail</h3>
+            <p>never stop exploring because only one who wanders finds a new path.</p>
+            <a href="javascript:;" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="images/serv-6.png" alt="">
+            <h3>various adventures</h3>
+            <p>Trip without adrenaline rush is like miachel jackson without moon walk.</p>
+            <a href="javascript:;" class="btn">read more</a>
+        </div>
+        
+    </div>
+
+</section>
+<!-- services section ends -->
+
+<!-- blogs section starts  -->
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> our travel blogs</h1>
+
+    <div class="swiper blogs-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <img src="images/img-1.jpg" alt="">
+                <div class="icons">
+                    <a href="javascript:;"> <i class="fas fa-calendar"></i> 25th sep, 2020 </a>
+                    <a href="javascript:;"> <i class="fas fa-user"></i> by Jitaditya Narzary</a>
+                </div>
+                <h3>A Complete Travel Guide to Himachal Pradesh</h3>
+                <p> It is not only the natural allure of the Himalayas but the overall tourism infrastructure and the characteristic tourist-friendliness of the locals that make it the ultimate long-term backpacking destination in India.</p>
+                <a href="javascript:;" class="btn">read more</a>
+            </div>
+
+            <div class="swiper-slide slide">
+                <img src="images/img-2.jpg" alt="">
+                <div class="icons">
+                    <a href="javascript:;"> <i class="fas fa-calendar"></i> 19th nov, 2020 </a>
+                    <a href="javascript:;"> <i class="fas fa-user"></i> by emily clarke</a>
+                </div>
+                <h3>things you must know before visiting kerala</h3>
+                <p>Everyone told us that Kerala was going to be the perfect introduction to India. A 'soft-landing' into a country that's more like a continent, where spirituality and chaos reside side-by-side in a cornucopia of colour.</p>
+                <a href="javascript:;" class="btn">read more</a>
+            </div>
+
+            <div class="swiper-slide slide">
+                <img src="images/img-3.jpg" alt="">
+                <div class="icons">
+                    <a href="javascript:;"> <i class="fas fa-calendar"></i> 21st jan, 2021 </a>
+                    <a href="javascript:;"> <i class="fas fa-user"></i> by Shilpa Kulkarni</a>
+                </div>
+                <h3>kashmir : A trip to paradise on earth</h3>
+                <p>erdant meadows, snow-peaked mountains, and picturesque towns set against thundering rivers - one instantly imagines Kashmir as a true paradise on Earth, Offering a summer getaway in this winter wonderland.</p>
+                <a href="javascript:;" class="btn">read more</a>
+            </div>
+
+            <div class="swiper-slide slide">
+                <img src="images/img-4.jpg" alt="">
+                <div class="icons">
+                    <a href="javascript:;"> <i class="fas fa-calendar"></i> 8th april, 2021 </a>
+                    <a href="javascript:;"> <i class="fas fa-user"></i> by Sophie Pearce</a>
+                </div>
+                <h3>Explore the Unforgettable Land of High Passes!</h3>
+                <p>Julley from Leh! That means Hello in Ladakh. Leh is the super friendly mountain city that is waiting for you to visit them. you'll be greeted by the most spectacular views of ancient palaces, and Buddhist stupas.</p>
+                <a href="javascript:;" class="btn">read more</a>
+            </div>
+
+            <div class="swiper-slide slide">
+                <img src="images/img-5.jpg" alt="">
+                <div class="icons">
+                    <a href="javascript:;"> <i class="fas fa-calendar"></i> 29th jul, 2021 </a>
+                    <a href="javascript:;"> <i class="fas fa-user"></i> by Krishna panwar</a>
+                </div>
+                <h3>Experience From My trip to Sikkim after covid</h3>
+                <p>Sikkim can be broadly divided into four zones- east, west, north and south. The tourism here is also divided likewise. Gangtok is the main town and wherever you go, you can always start from Gangtok.</p>
+                <a href="javascript:;" class="btn">read more</a>
+            </div>
+
+            <div class="swiper-slide slide">
+                <img src="images/img-6.jpg" alt="">
+                <div class="icons">
+                    <a href="javascript:;"> <i class="fas fa-calendar"></i> 13th oct, 2021 </a>
+                    <a href="javascript:;"> <i class="fas fa-user"></i> by Ellie Cleary</a>
+                </div>
+                <h3>Best places that you must visit in rajasthan</h3>
+                <p>Rajasthan's best known and loved destinations include Udaipur, Jodhpur, Jaipur and Jaisalmer, But there is more to Rajasthan than these colourful cities, with alternative destinations such as Bikaner, Bundi, Pushkar. </p>
+                <a href="javascript:;" class="btn">read more</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- blogs section ends -->
+
+<!-- newsletter section  -->
+<section class="newsletter">
+
+    <div class="content">
+        <h1 class="heading">subscirbe now</h1>
+        <p>Subscribe to our weekly newsletter to get updates about new packages launch, travelling tips and extra discount coupons. </p>
+        <form action="">
+            <input type="email" name="" placeholder="enter your email" id="" class="email">
+            <input type="submit" value="subscirbe" class="btn">
+        </form>
+    </div>
+
+</section>
+
+<!-- clients section -->
+<section class="clients">
+
+    <div class="swiper clients-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide silde"><img src="images/client-logo-1.png" alt=""></div>
+            <div class="swiper-slide silde"><img src="images/client-logo-2.png" alt=""></div>
+            <div class="swiper-slide silde"><img src="images/client-logo-3.png" alt=""></div>
+            <div class="swiper-slide silde"><img src="images/client-logo-4.png" alt=""></div>
+        </div>
+    </div>
+
+</section>
+
+<!-- footer section starts  -->
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#shop">shop</a>
+            <a href="#packages">packages</a>
+            <a href="#reviews">reviews</a>
+            <a href="#blogs">blogs</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="javascript:;">my account</a>
+            <a href="javascript:;">my order</a>
+            <a href="javascript:;">my wishlist</a>
+            <a href="javascript:;">ask questions</a>
+            <a href="javascript:;">terms of use</a>
+            <a href="javascript:;">privacy policy</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="javascript:;"> <i class="fas fa-phone"></i> +987-654-3210 </a>
+            <a href="javascript:;"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+            <a href="javascript:;" style="text-transform: none;"> <i class="fas fa-envelope"></i> Travel_anywhere@gmail.com </a>
+            <a href="javascript:;"> <i class="fas fa-map"></i> jodhpur, india - 342001</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="javascript:;"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="javascript:;"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="javascript:;"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="javascript:;"> <i class="fab fa-linkedin"></i> linkedin </a>
+        </div>
+
+    </div>
+</section>
+<!-- footer section ends -->
+
+<!-- swiper js link -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link -->
+<script src="./index.js"></script>
+
+<!-- alert js link -->
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</body>
+</html>
