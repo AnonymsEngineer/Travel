@@ -41,6 +41,10 @@ var swiper = new Swiper(".home-slider", {
     loop:true, 
     grabCursor:true,
     effect: "fade",
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: false,
+    },
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
@@ -54,6 +58,10 @@ var swiper = new Swiper(".product-slider", {
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
+    },
+    autoplay: {
+      delay: 3500,
+      disableOnInteraction: false,
     },
     breakpoints: {
         0: {
