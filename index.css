@@ -177,18 +177,6 @@ section {
   padding-right: 2rem;
 }
 
-.search-form form input::-webkit-input-placeholder {
-  color: #aaa;
-}
-
-.search-form form input:-ms-input-placeholder {
-  color: #aaa;
-}
-
-.search-form form input::-ms-input-placeholder {
-  color: #aaa;
-}
-
 .search-form form input::placeholder {
   color: #aaa;
 }
